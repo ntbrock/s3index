@@ -29,8 +29,7 @@ import com.codeminders.scalaws.s3.model.Owner
 import java.util.Date
 import com.codeminders.scalaws.s3.model.StorageClass
 import org.apache.commons.lang.StringUtils
-import com.codeminders.scalaws.AmazonServiceException
-import com.codeminders.scalaws.AmazonClientException
+import com.codeminders.scalaws.{AWSCredentials, AmazonServiceException, AmazonClientException}
 import com.yahoo.platform.yui.compressor.JavaScriptCompressor
 import com.yahoo.platform.yui.compressor.YUICompressor
 import com.googlecode.htmlcompressor.compressor.ClosureJavaScriptCompressor
@@ -39,7 +38,10 @@ import scala.concurrent.ExecutionContext.Implicits.global
 
 object Application extends Controller {
 
-  private val s3Client = AWSS3()
+  private val awsCreds = AWSCredentials()
+  Logger.debug("[Application:41] Creating S3 Client w/ Credentials: " + awsCreds.accessKeyId + " " + awsCreds.secretKey )
+
+  private val s3Client = AWSS3(awsCreds)
 
   private val htmlCompressor = new HtmlCompressor()
 

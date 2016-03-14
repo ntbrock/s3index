@@ -52,23 +52,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Global.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Global.scala">
+      <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Application.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="230" column="27" selection-start-line="230" selection-start-column="27" selection-end-line="230" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.40552017">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="e#21#38#0" expanded="true" />
               </folding>
@@ -76,31 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilsTests.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/model/UtilsTests.scala">
+      <file leaf-file-name="AWSS3.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/local/com.codeminders.scalaws/scala-aws-s3_2.11/1.0.0-SNAPSHOT/srcs/scala-aws-s3_2.11-sources.jar!/com/codeminders/scalaws/s3/AWSS3.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="83" column="32" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesValidatorTests.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/model/PropertiesValidatorTests.scala">
+      <file leaf-file-name="AWSCredentials.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/local/com.codeminders.scalaws/scala-aws-core_2.11/1.0.0-SNAPSHOT/srcs/scala-aws-core_2.11-sources.jar!/com/codeminders/scalaws/AWSCredentials.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15060242">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexGenerator.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/IndexGenerator.scala">
+      <file leaf-file-name="ClientConfiguration.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/local/com.codeminders.scalaws/scala-aws-core_2.11/1.0.0-SNAPSHOT/srcs/scala-aws-core_2.11-sources.jar!/com/codeminders/scalaws/http/ClientConfiguration.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -185,6 +183,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s3index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s3index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -571,27 +587,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/IndexGenerator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="230" column="27" selection-start-line="230" selection-start-column="27" selection-end-line="230" selection-end-column="27" />
-          <folding>
-            <element signature="e#21#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/model/UtilsTests.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.15060242">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
@@ -602,6 +600,56 @@
         <state vertical-scroll-proportion="0.15060242">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/IndexGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39156628">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.codeminders.scalaws/scala-aws-core_2.11/1.0.0-SNAPSHOT/srcs/scala-aws-core_2.11-sources.jar!/com/codeminders/scalaws/http/ClientConfiguration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.codeminders.scalaws/scala-aws-core_2.11/1.0.0-SNAPSHOT/srcs/scala-aws-core_2.11-sources.jar!/com/codeminders/scalaws/AWSCredentials.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/local/com.codeminders.scalaws/scala-aws-s3_2.11/1.0.0-SNAPSHOT/srcs/scala-aws-s3_2.11-sources.jar!/com/codeminders/scalaws/s3/AWSS3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40552017">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
