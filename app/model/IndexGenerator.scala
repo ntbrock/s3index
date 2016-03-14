@@ -1,13 +1,21 @@
 package model
 
+import model.Template._
+
 import play.api.templates.Html
 import play.api._
-import play.templates.ScalaTemplateCompiler
+
+
+
 import com.codeminders.scalaws.s3.AWSS3
 import com.codeminders.scalaws.s3.api.Keys
 import com.codeminders.scalaws.s3.model.S3ObjectSummary
 import com.codeminders.scalaws.utils.DateUtils
-import Template._
+
+// Play 2.3.9 Migration forward to twirl
+import play.twirl.api._
+// import play.templates.ScalaTemplateCompiler
+// import Template._
 import FilesListFormat._
 import org.apache.commons.io.FilenameUtils
 import scala.util.matching.Regex

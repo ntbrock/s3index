@@ -35,6 +35,7 @@ import com.yahoo.platform.yui.compressor.JavaScriptCompressor
 import com.yahoo.platform.yui.compressor.YUICompressor
 import com.googlecode.htmlcompressor.compressor.ClosureJavaScriptCompressor
 import play.api.i18n.Messages
+import scala.concurrent.ExecutionContext.Implicits.global
 
 object Application extends Controller {
 
@@ -222,8 +223,8 @@ object Application extends Controller {
     }
   }
 
-  private def sendByteArrayAsFile(content: Array[Byte], fileName: String): SimpleResult[Array[Byte]] = {
-    SimpleResult(
+  private def sendByteArrayAsFile(content: Array[Byte], fileName: String): Result = {
+    Result(
       header = ResponseHeader(OK, Map(
         CONTENT_LENGTH -> content.length.toString,
         CONTENT_TYPE -> play.api.libs.MimeTypes.forFileName(fileName).getOrElse(play.api.http.ContentTypes.BINARY)) ++ (Map(CONTENT_DISPOSITION -> ("attachment; filename=" + fileName)))),
