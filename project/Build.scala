@@ -10,8 +10,22 @@ object S3IndexBuild extends Build {
   val appVersion = "1.1"
   val scVersion = "2.11.7"
 
+  val playDependencies = Seq(
+    "com.typesafe.play" %% "play-cache" % "2.3.9",
+    "org.scala-lang.modules" %% "scala-async" % "0.9.2"
+  )
+
   val appDependencies = Seq(
-    //	"com.codeminders.scalaws" % "scala-aws-s3_2.9.2" % "1.0.0-SNAPSHOT",
+    // Upgraded https://github.com/ntbrock/scala-aws
+    "com.codeminders.scalaws" %% "scala-aws-core" % "1.0.0-SNAPSHOT",
+    "com.codeminders.scalaws" %% "scala-aws-s3" % "1.0.0-SNAPSHOT",
+
+    // The AWS client is not hte Atlassian one
+    //    "io.atlassian.aws-scala" %% "aws-scala-core"  % "4.0.2",
+    //    "io.atlassian.aws-scala" %% "aws-scala-s3"  % "4.0.2",
+    //    "io.atlassian.aws-scala" %% "aws-scala-core"  % "4.0.2"  % "test" classifier "tests",
+    //    "io.atlassian.aws-scala" %% "aws-scala-s3"  % "4.0.2"  % "test" classifier "tests",
+
     "commons-io" % "commons-io" % "2.4",
     "commons-codec" % "commons-codec" % "1.7",
     "org.apache.httpcomponents" % "httpclient" % "4.2.1",
@@ -28,7 +42,7 @@ object S3IndexBuild extends Build {
     .settings(
     scalaVersion := scVersion,
       version := appVersion,
-      libraryDependencies ++= appDependencies
+      libraryDependencies ++= ( playDependencies ++ appDependencies )
   )
    
 }

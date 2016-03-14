@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.googlecode.htmlcompressor:htmlcompressor:1.5.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.htmlcompressor/htmlcompressor/jars/htmlcompressor-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.htmlcompressor/htmlcompressor/srcs/htmlcompressor-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
